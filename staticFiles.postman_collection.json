@@ -1,0 +1,340 @@
+{
+	"info": {
+		"_postman_id": "e8f55d8c-7ac4-40af-b411-05d6c33e2031",
+		"name": "staticFiles",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:8080/staticfiles",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "77112d5f-53d1-420c-9182-dea2822e28f4",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/staticfiles?collection_id=1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"staticfiles"
+					],
+					"query": [
+						{
+							"key": "collection_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:8080/staticfiles",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "127.0.0.1:8080/staticfiles?collection_id=1",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"staticfiles"
+							],
+							"query": [
+								{
+									"key": "collection_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8080"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 05 Dec 2018 15:55:07 +0000"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.10-0ubuntu0.18.04.1"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "X-Debug-Tag",
+							"value": "5c07f4db09625"
+						},
+						{
+							"key": "X-Debug-Duration",
+							"value": "12"
+						},
+						{
+							"key": "X-Debug-Link",
+							"value": "/debug/default/view?tag=5c07f4db09625"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"collection_id\": \"1\",\n        \"file_id\": \"1\",\n        \"coords\": {\n            \"lat\": 7777777,\n            \"lon\": 777777\n        },\n        \"url\": \"/var/www/portfolio_main/yii2_service_load_files/files/c4ca4238a0b923820dcc509a6f75849b/9ddf14249b9d99113ab6873374c30357.png\",\n        \"user_id\": 1,\n        \"create_date\": \"2018-12-05 22:34:02\"\n    },\n    {\n        \"id\": 2,\n        \"collection_id\": \"1\",\n        \"file_id\": \"2\",\n        \"coords\": {\n            \"lat\": 888,\n            \"lon\": 9999\n        },\n        \"url\": \"/var/www/portfolio_main/yii2_service_load_files/files/c4ca4238a0b923820dcc509a6f75849b/8506be987a8cdc860d34ae9311b99361.jpeg\",\n        \"user_id\": 1,\n        \"create_date\": \"2018-12-05 22:36:36\"\n    }\n]"
+				},
+				{
+					"name": "127.0.0.1:8080/staticfiles",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "127.0.0.1:8080/staticfiles?collection_id=1",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"staticfiles"
+							],
+							"query": [
+								{
+									"key": "collection_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8080"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 05 Dec 2018 15:44:37 +0000"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.10-0ubuntu0.18.04.1"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "X-Debug-Tag",
+							"value": "5c07f265b766d"
+						},
+						{
+							"key": "X-Debug-Duration",
+							"value": "13"
+						},
+						{
+							"key": "X-Debug-Link",
+							"value": "/debug/default/view?tag=5c07f265b766d"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"collection_id\": \"1\",\n        \"file_id\": \"1\",\n        \"coords\": {\n            \"lat\": 7777777,\n            \"lon\": 777777\n        },\n        \"url\": \"/var/www/portfolio_main/yii2_service_load_files/files/c4ca4238a0b923820dcc509a6f75849b/9ddf14249b9d99113ab6873374c30357.png\",\n        \"user_id\": 1,\n        \"create_date\": \"2018-12-05 22:34:02\"\n    },\n    {\n        \"id\": 2,\n        \"collection_id\": \"1\",\n        \"file_id\": \"2\",\n        \"coords\": {\n            \"lat\": 888,\n            \"lon\": 9999\n        },\n        \"url\": \"/var/www/portfolio_main/yii2_service_load_files/files/c4ca4238a0b923820dcc509a6f75849b/8506be987a8cdc860d34ae9311b99361.jpeg\",\n        \"user_id\": 1,\n        \"create_date\": \"2018-12-05 22:36:36\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:8080/staticfiles",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "77112d5f-53d1-420c-9182-dea2822e28f4",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/staticfiles?file_id=2",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"staticfiles"
+					],
+					"query": [
+						{
+							"key": "file_id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8080/staticfiles",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "77112d5f-53d1-420c-9182-dea2822e28f4",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/staticfiles?collection_id=1&file_id=2",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"staticfiles"
+					],
+					"query": [
+						{
+							"key": "collection_id",
+							"value": "1"
+						},
+						{
+							"key": "file_id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8080/staticfiles",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "77112d5f-53d1-420c-9182-dea2822e28f4",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "routeUser",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": ""
+						},
+						{
+							"key": "coords",
+							"value": "{\"lat\": 7777777, \"lon\": 777777}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/staticfiles/create",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"staticfiles",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
